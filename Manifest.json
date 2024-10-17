@@ -5,8 +5,8 @@
     "description": "This is my first Chrome extension.",
     "permissions": [
         "storage",
-        "cookies", // Toevoegen van de cookies-permissie als je cookies wilt lezen
-        "https://*.roblox.com/" // Specifieke toestemming voor Roblox-domeinen
+        "cookies", 
+        "https://*.roblox.com/" 
     ],
     "background": {
         "scripts": ["background.js"],
